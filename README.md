@@ -1,18 +1,19 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Welcome to my metric converter! Here is a guideline to help you get started:
 
-## Folder Structure
+This program accepts the following conversions:
+    Kilometers to meters 
+    Kilometers to miles
+    Kilometers/hour to miles/hour
+    Kilograms to pounds 
+    Meters to feet
+    
+    And Vise Versa!
+    
+To receive a conversion your query should be formatting as the following:
+    (# of starting unit) startingUnit to endingUnit
 
-The workspace contains two folders by default, where:
+For example, "10 ft to m" will yeild and output of 3.05 m
+* Note: your query should be formatted using the abbreviation of each unit (i.e., feet -> ft, meters -> m, etc.)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+To exit the program, press the red X icon either in the top left or top right of the window.
